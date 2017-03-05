@@ -13,6 +13,11 @@
 		6E9D5E951E6B00B5005CB2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9D5E931E6B00B5005CB2FA /* Main.storyboard */; };
 		6E9D5E971E6B00B5005CB2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9D5E961E6B00B5005CB2FA /* Assets.xcassets */; };
 		6E9D5E9A1E6B00B5005CB2FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9D5E981E6B00B5005CB2FA /* LaunchScreen.storyboard */; };
+		6E9D5EA31E6B00D3005CB2FA /* BaseState.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D5EA21E6B00D3005CB2FA /* BaseState.m */; };
+		6E9D5EAD1E6B0866005CB2FA /* stateSilent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D5EAC1E6B0866005CB2FA /* stateSilent.m */; };
+		6E9D5EB01E6B0880005CB2FA /* stateNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D5EAF1E6B0880005CB2FA /* stateNormal.m */; };
+		6E9D5EB31E6B08D5005CB2FA /* stateLoud.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D5EB21E6B08D5005CB2FA /* stateLoud.m */; };
+		6E9D5EB61E6BB263005CB2FA /* PlaySound.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D5EB51E6BB263005CB2FA /* PlaySound.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		6E9D5E961E6B00B5005CB2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E9D5E991E6B00B5005CB2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E9D5E9B1E6B00B5005CB2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9D5EA11E6B00D3005CB2FA /* BaseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseState.h; sourceTree = "<group>"; };
+		6E9D5EA21E6B00D3005CB2FA /* BaseState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseState.m; sourceTree = "<group>"; };
+		6E9D5EAB1E6B0866005CB2FA /* stateSilent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stateSilent.h; sourceTree = "<group>"; };
+		6E9D5EAC1E6B0866005CB2FA /* stateSilent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stateSilent.m; sourceTree = "<group>"; };
+		6E9D5EAE1E6B0880005CB2FA /* stateNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stateNormal.h; sourceTree = "<group>"; };
+		6E9D5EAF1E6B0880005CB2FA /* stateNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stateNormal.m; sourceTree = "<group>"; };
+		6E9D5EB11E6B08D5005CB2FA /* stateLoud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stateLoud.h; sourceTree = "<group>"; };
+		6E9D5EB21E6B08D5005CB2FA /* stateLoud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stateLoud.m; sourceTree = "<group>"; };
+		6E9D5EB41E6BB263005CB2FA /* PlaySound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaySound.h; sourceTree = "<group>"; };
+		6E9D5EB51E6BB263005CB2FA /* PlaySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaySound.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				6E9D5E8E1E6B00B5005CB2FA /* AppDelegate.m */,
 				6E9D5E901E6B00B5005CB2FA /* ViewController.h */,
 				6E9D5E911E6B00B5005CB2FA /* ViewController.m */,
+				6E9D5EA11E6B00D3005CB2FA /* BaseState.h */,
+				6E9D5EA21E6B00D3005CB2FA /* BaseState.m */,
+				6E9D5EAB1E6B0866005CB2FA /* stateSilent.h */,
+				6E9D5EAC1E6B0866005CB2FA /* stateSilent.m */,
+				6E9D5EAE1E6B0880005CB2FA /* stateNormal.h */,
+				6E9D5EAF1E6B0880005CB2FA /* stateNormal.m */,
+				6E9D5EB11E6B08D5005CB2FA /* stateLoud.h */,
+				6E9D5EB21E6B08D5005CB2FA /* stateLoud.m */,
+				6E9D5EB41E6BB263005CB2FA /* PlaySound.h */,
+				6E9D5EB51E6BB263005CB2FA /* PlaySound.m */,
 				6E9D5E931E6B00B5005CB2FA /* Main.storyboard */,
 				6E9D5E961E6B00B5005CB2FA /* Assets.xcassets */,
 				6E9D5E981E6B00B5005CB2FA /* LaunchScreen.storyboard */,
@@ -152,7 +177,12 @@
 			files = (
 				6E9D5E921E6B00B5005CB2FA /* ViewController.m in Sources */,
 				6E9D5E8F1E6B00B5005CB2FA /* AppDelegate.m in Sources */,
+				6E9D5EB01E6B0880005CB2FA /* stateNormal.m in Sources */,
+				6E9D5EAD1E6B0866005CB2FA /* stateSilent.m in Sources */,
+				6E9D5EA31E6B00D3005CB2FA /* BaseState.m in Sources */,
+				6E9D5EB61E6BB263005CB2FA /* PlaySound.m in Sources */,
 				6E9D5E8C1E6B00B5005CB2FA /* main.m in Sources */,
+				6E9D5EB31E6B08D5005CB2FA /* stateLoud.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
